@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 6px 0;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    background-color: #F8643C;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.new {
+    color: red;
+}
+
+.navbar {
+    /* position: sticky; */
+    width: 100%;
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+
+}
+
+
+.collection {
+    color: #2d2b2a;
+    font-weight: 700;
+}
+
+.logo img {
+    width: 90px;
+    height: 50px;
+}
+
+
+.list-items li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #2d2b2a
+}
+
+.list-items {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.right-icons {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    line-height: 18px;
+}
+
+.track img {
+    width: 40px;
+    height: 27px;
+    margin-left: -3px;
+}
+/* uperhero */
+
+.home-sec a{
+text-decoration: none;
+color: #000;
+margin-left: 20px;
+}
+
+.sort{
+    display: flex;
+    gap: 10px;
+    color: grey;
+    border-color:2px solid #777;
+    margin-left: 20px;
+}
+.sort button{
+    width: 100px;
+    height: 23px;
+    border: none;
+}
+
+
+
+/* slider-section */
+.card-body p{
+    margin-top: 10px;
+    margin-left: -10px;
+line-height: 5px;
+color: #777;
+
+}
+/* .ul button{
+    border:none;
+    outline: none;
+} */
+.card-body button:hover{
+background-color: #000;
+
+color: #fff;
+}
+.card img{
+   
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw3a79f96d/images/hi-res/wckd23402_multi_2.jpg?sw=400&sh=600);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+.card-img-top img:hover{
+    background-image: url('https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwf2adfd72/images/hi-res/wcko23404_rust_2.jpg?sw=400&sh=600');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  /* sider2 */
+ 
+
+/* footer section */
+.upper-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-center input {
+    margin-top: 10px;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.upper-center button {
+    width: 100px;
+    height: 36px;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.upper-right {
+    display: flex;
+    gap: 5px;
+}
+
+.upper-right img {
+    width: 44px;
+    height: 44px;
+}
+
+
+footer {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get-in-touch {
+    margin-left: 50px;
+    margin-top: -5%;
+}
+
+.get-in-touch h4 {
+    padding-bottom: 20px;
+}
+
+.get-in-touch.same p {
+    color: #777;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.same {
+    padding-bottom: 10px;
+}
+
+.address {
+    padding-bottom: 10px;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .075em;
+    color: #2d2b2a;
+    text-transform: uppercase;
+}
+
+.our-company {
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .075em;
+    color: #2d2b2a;
+    text-transform: uppercase;
+}
+
+.last-portion {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 78px;
+    padding-right: 7px;
+    margin-top: -5%;
+}
+
+.last-portion p {
+    font-size: 12px;
+    color: grey;
+}

@@ -1,0 +1,900 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background-image: url(./Assests/khaadi.webp);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    /* position: relative; */
+}
+
+.main-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    left: 70%;
+    top: 20%;
+}
+
+.btn {
+    margin-left: 31px;
+}
+
+.dropdown {
+    margin-left: -46px;
+}
+
+.main-content img {
+    max-width: 220px;
+    height: auto;
+}
+
+select {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 20px;
+    border: solid 1px black;
+    height: 50px;
+    border-radius: 10px;
+    color: #282828;
+    width: 350px;
+    font-size: 18px;
+    line-height: 37px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    outline: none;
+    /* position: absolute; */
+}
+
+.btn button {
+    min-height: 40px;
+    background: #2d2b2a;
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+
+
+
+}
+
+
+.btn button a {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+
+/***** Home-page-styling*/
+
+
+.upper {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 6px 0;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    background-color: #F8643C;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.new {
+    color: red;
+}
+
+.navbar {
+    /* position: sticky; */
+    width: 100%;
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+
+}
+
+
+.collection {
+    color: #2d2b2a;
+    font-weight: 700;
+    
+}
+
+.logo img {
+    width: 90px;
+    height: 50px;
+}
+
+
+.list-items li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: red
+}
+
+.list-items {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.right-icons {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    line-height: 18px;
+}
+
+.track img {
+    width: 40px;
+    height: 27px;
+    margin-left: -3px;
+}
+
+.swiper {
+    width: 100%;
+    height: 84vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-2 {
+
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.sec-two-images {
+    padding: 12px;
+    display: flex;
+    
+}
+
+.sec-two-images1 img {
+
+    width: 300px;
+    height: 300px;
+   
+}
+.sec-two-images2 img {
+
+    width: 300px;
+    height: 300px;
+   
+}
+
+/**Section 3****/
+
+/* .left-img img {
+    width: 759.6px;
+    height: 616.4px;
+} */
+
+.slideimage-section {
+    display: flex;
+    width: 100%;
+}
+
+.side-image {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw544f69f7/images/NewFabrics-HomepageCategory.jpg");
+    position: relative;
+    background-size: cover;
+    margin-left: 12px;
+}
+
+.side-image1 {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwed649844/images/Batik-Homepage-Category-Banner-986x770.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+.side-image2 {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw866f9075/images/WestKnits-Homepage-Category-Banner-986x770.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+.side-image3 {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw4f346d72/images/Sale-Homepage%20Category%20Banner-986x770px.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+.cornericon {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 123px;
+    left: 719px;
+}
+
+.cornericon1 {
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+}
+
+.cornericon2 {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 123px;
+    left: 730px;
+}
+
+.cornericon3 {
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+    /* left: 645px; */
+}
+
+
+
+.Pricing {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.swiper-side {
+    height: 450px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.swiper-side h2 {
+    font-size: 24px;
+    margin: 0px 0 20px 0;
+    color: #000;
+}
+
+.swiper1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sildechange {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw72712a92/images/hi-res/ama231006_purple_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw72712a92/images/hi-res/ama231006_purple_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange1 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw19c40b62/images/hi-res/alk231018_blue_2.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange1:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw968f6ab5/images/hi-res/alk231018_blue_1.jpg?sw=800&sh=1200);
+}
+
+.sildechange2 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw3208849e/images/hi-res/ama231002_yellow_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange2:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwbdf3bf3e/images/hi-res/ama231002_yellow_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange3 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwd289baef/images/hi-res/ak231002_beige_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange3:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwfcad4e5b/images/hi-res/ak231002_beige_3.jpg?sw=800&sh=1200);
+}
+
+.sildechange4 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw91833c6b/images/hi-res/est23423_pink_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange4:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw887135d3/images/hi-res/est23423_pink_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange5 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw524a8fd8/images/hi-res/eet23513_off-white_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange5:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw76d07990/images/hi-res/eet23513_off-white_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange6 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwb5b43873/images/hi-res/eet23533_beige_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange6:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw65475b00/images/hi-res/eet23533_beige_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange7 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwcca1cf0c/images/hi-res/eet23528_green_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange7:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw2dcab9ee/images/hi-res/eet23528_green_4.jpg?sw=800&sh=1200);
+}
+
+
+.sildechange8 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw5b81ed89/images/hi-res/wsct23232_brown_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange8:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw3a50052b/images/hi-res/wsct23232_brown_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange9 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw86bfbb37/images/hi-res/wscd23249t_multi_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange9:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwc63549bc/images/hi-res/wscd23249t_multi_3.jpg?sw=800&sh=1200);
+}
+
+.sildechange10 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwd151fa72/images/hi-res/wcwt23215_beige_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange10:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw86fe2b92/images/hi-res/wcwt23215_beige_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange11 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw804eae1c/images/hi-res/wcwb23219_green_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange11:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwd15a3e98/images/hi-res/wcwb23219_green_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange12 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw465b62d1/images/hi-res/ect22410kn_lilac_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange12:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw83b09c89/images/hi-res/ect22410kn_lilac_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange13 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw9807c197/images/hi-res/ect22407kn_black_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange13:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw89bbd68a/images/hi-res/ect22407kn_black_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange14 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw6be36c5b/images/hi-res/eet22449_green_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange14:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw32c5e81a/images/hi-res/eet22449_green_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange15 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw69e8d646/images/hi-res/eeo22438_multi_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange15:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwc42d15ac/images/hi-res/eeo22438_multi_2.jpg?sw=800&sh=1200);
+}
+
+
+.swiperrrr {
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+}
+
+.but-pri {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.but-pri button {
+    height: 30px;
+    margin: 0;
+    width: 100%;
+    background-color: #f7f2f2;
+    outline: none;
+    border: none;
+}
+.upper p{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.but-pri button:hover {
+    background-color: black;
+    color: white;
+}
+
+.but-pri h3 {
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.but-pri p {
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #6d6b6b;
+
+}
+/*fabrics*/
+.size{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.size1{
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+.size2{
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+.size3{
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+.size1:hover{
+    border:2px solid black;
+    background-color: #fff;
+}
+.size2:hover{
+    border:2px solid black;
+    background-color: #fff;
+}
+.size3:hover{
+    border:2px solid black;
+    background-color: #fff;
+}
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0d0d0d; /* Customize the color */
+}
+/*fabric*/
+
+
+
+.sub-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 13vh;
+    background-color: #F1F1F1;
+  
+
+}
+
+.content-1 {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.content-text {
+    line-height: 25px;
+    color: #000;
+}
+
+.grey {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1;
+    color: #777;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+}
+
+
+.upper-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+}
+
+.upper-center input {
+    margin-top: 10px;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.upper-center button {
+    width: 100px;
+    height: 36px;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.upper-right {
+    display: flex;
+    gap: 5px;
+}
+
+.upper-right img {
+    width: 44px;
+    height: 44px;
+}
+
+
+/* Main footer  */
+
+footer {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: space-between;
+}
+
+.get-in-touch {
+    margin-left: 50px;
+    margin-top: -5%;
+}
+
+.get-in-touch h4 {
+    padding-bottom: 20px;
+}
+
+.get-in-touch.same p {
+    color: #777;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.same {
+    padding-bottom: 10px;
+}
+
+.address {
+    padding-bottom: 10px;
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .075em;
+    color: #2d2b2a;
+    text-transform: uppercase;
+}
+
+.our-company {
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .075em;
+    color: #2d2b2a;
+    text-transform: uppercase;
+}
+
+.last-portion {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 78px;
+    padding-right: 7px;
+    margin-top: -5%;
+}
+
+.last-portion p {
+    font-size: 12px;
+    color: grey;
+}
+
+
+/* Hero section  */
+
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    gap:25px;
+}
+.upper-hero span a:hover{
+    color: black;
+    text-decoration: none;
+}
+.upper-hero span a{
+    text-align: start;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    height: 6vh;
+    text-decoration: none;
+}
+
+.hero-left{
+
+    padding-left: 15px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-left .img img {
+    width: 80px;
+    height: 130px;
+    padding-bottom: 10px;
+    margin-left: -3px;
+    margin-top: 7px;
+}
+.hero-center{
+    margin-top: 7px;
+    height: 964.5px;
+    width: 643px;
+    /* border: 1px solid black; */
+}
+.hero-right{
+    margin-top: 7px;
+   
+}
+.hero-center img{
+    height:130vh;
+    width: 643px;
+}
+.hero-right .hero-p-head {
+    font-size: 18px;
+    /* colo/r: red; */
+    font-weight: bolder;
+}
+.hero-right p{
+    line-height: 20px;
+}
+.hero-p-1{
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-numbar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn-numbar button{
+    width: 264.4px;
+    height: 55px;
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+
+.details h4{
+    color: grey;
+    width: 364px;
+    border-bottom: 2px solid brown;
+}
+.details .details-p p{
+    line-height: 55px;
+}
+.hero-second img{
+    width: 250px;
+    height: 376px;
+}
+.hero-second p{
+    font-weight: bolder;
+}
+
+/* table*/
+
+.noor{
+    gap: 30px;
+}
+.noor h5 {
+    color: #333; /* Default text color */
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+
+  }
+  
+  /* Style for the bottom line when not hovered */
+  .table h5::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Height of the bottom line */
+    bottom: 0;
+    left: 0;
+    background-color: #333; /* Default color of the bottom line */
+    transform: scaleX(0); /* Initially invisible */
+    transform-origin: bottom right;
+    transition: transform 0.3s ease; /* Add transition for a smooth effect */
+  }
+  
+  /* Change the color of the bottom line on hover */
+  .table h5:hover::before {
+    transform: scaleX(1); /* Make the bottom line visible on hover */
+    background-color: #ff0000; /* Change the color on hover */
+  }
+  .Slight{
+    color: red;
+}
+.table {
+  width: 40%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  line-height: bold;
+}
+
+.th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+ 
+}
+
+th {
+    background-color: black;
+    color: #fff;
+    
+  } 
+  tr{
+    font-weight: bold;
+   }
+
+
+
+  /* counter */ */
+  #counterr{
+    font-size: 24px;
+
+    color: #0d0d0d; /* Customize the color */
+   
+  }
+  .bttnn{
+    display: flex;
+    gap: 30px;
+    margin-top: -8%;
+    
+  }
+  .bttnn button:hover{
+    background-color: rgb(29, 29, 31);
+    color: white;
+  }
+  .bttnn button{
+    width: 40px;
+    
+    font-weight: bold;
+    height: 30px;
+  }
